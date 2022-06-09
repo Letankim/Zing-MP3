@@ -184,9 +184,7 @@ var containerProfile = document.querySelectorAll('.container_profile--head-item'
         });
         this.classList.add('active');
         var indexThisItemDisplay = index + 2;
-        console.log(indexThisItemDisplay + 3);
         var thisEleShow = listDisplayUser[indexThisItemDisplay];
-        console.log(listDisplayUser[indexThisItemDisplay])
         switch (textControl) {
             case "Tổng quan":
                 listDisplayUser[indexThisItemDisplay + 1].classList.add('active-show-interface');
@@ -219,15 +217,12 @@ var containerProfile = document.querySelectorAll('.container_profile--head-item'
                 function checkInterface(ele1, ele2, ele3, ele4) {
                     if(ele1.classList.contains('active-show-interface')) {
                         ele1.classList.remove("active-show-interface");
-                        console.log('ok')
                     }
                     if(ele2.classList.contains('active-show-interface')) {
                         ele2.classList.remove("active-show-interface");
-                        console.log("ok")
                     }
                     if(ele3.classList.contains('active-show-interface')) {
                         ele3.classList.remove("active-show-interface");
-                        console.log("ok")
                     }
                 }
                 checkInterface(listDisplayUser[indexThisItemDisplay - 1],
@@ -240,7 +235,6 @@ var containerProfile = document.querySelectorAll('.container_profile--head-item'
                 function checkInterface(ele1, ele2, ele3, ele4) {
                     if(ele1.classList.contains('active-show-interface')) {
                         ele1.classList.remove("active-show-interface");
-                        console.log('ok')
                     }
                     if(ele2.classList.contains('active-show-interface')) {
                         ele2.classList.remove("active-show-interface");
@@ -295,7 +289,6 @@ mainMusic.onclick = function() {
     settings.classList.remove('active');
     this.classList.remove('animate');
 }
-
 
 
 // load window and practice functions 

@@ -206,7 +206,6 @@ var app = {
                 if(audio.currentTime === audio.duration) {
                     _this.currentIndex = Math.floor(Math.random() * _this.listMusic.length);
                     _this.isRandom = true;
-                    console.log( _this.currentIndex)
                     _this.loadCurrentSong();
                     _this.appActive();
                     audio.play();
@@ -216,7 +215,6 @@ var app = {
                 if(audio.currentTime === audio.duration) {
                     _this.currentIndex = _this.currentIndex;
                     _this.loadCurrentSong();
-                    console.log("redo", _this.currentIndex)
                     audio.play();
                 };
                 //nếu không có active gọi next;
@@ -248,7 +246,6 @@ var app = {
         // redo music
         btnRedo.onclick = function() {
             this.classList.toggle("active");
-            console.log(_this.currentIndex, "ok");
         };
         // random playing music
         btnRandom.onclick = function() {
@@ -291,7 +288,6 @@ var app = {
         // change volume
         volume.onchange = function () {
             audio.volume = this.value/100;
-            console.log("ok")
         }
         // when click song it will render this next
         musicsContainer.onclick = function(e) {
