@@ -1,0 +1,989 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zing MP3 | Nghe tải nhạc chất lượng cao</title>
+    <link rel="stylesheet" href="../css/grid.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://icons.iconarchive.com/icons/amineworld/music-of-the-spheres/128/MP3-blue-icon.png">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/style-main.css">
+    <link rel="stylesheet" href="../font/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body>
+    <div class="container-app">
+        <div class="wrapper">
+            <div class="main">
+                <!-- main control -->
+                <div class="nav-left hide-on-mobile menu-on-taplet">
+                    <!-- logo -->
+                    <div class="nav-logo">
+                        <img src="https://static-zmp3.zadn.vn/zmp3_rpt/images/logo-mp3.svg" alt="">
+                    </div>
+                    <!-- navbar -->
+                    <div class="nav-left-control">
+                        <ul class="nav-control-list">
+                            <li class="nav-control-item active">
+                                <a href="#" class="nav-control-link">
+                                    <i class="fab icon-nav_label icon_add_big fa-itunes"></i>
+                                    <span class="nav-control-title">Cá Nhân</span>
+                                </a>
+                            </li>
+                            <li class="nav-control-item">
+                                <a href="#" class="nav-control-link">
+                                    <i class="fas icon-nav_label fa-record-vinyl"></i>
+                                    <span class="nav-control-title">Khám phá</span>
+                                </a>
+                            </li>
+                            <li class="nav-control-item">
+                                <a href="#" class="nav-control-link">
+                                    <i class="fab icon-nav_label fa-facebook-messenger"></i>
+                                    <span class="nav-control-title">#zinghchat</span>
+                                </a>
+                            </li>
+                            <li class="nav-control-item">
+                                <a href="#" class="nav-control-link">
+                                    <i class="fas icon-nav_label fa-radiation-alt"></i>
+                                    <span class="nav-control-title">Radio</span>
+                                </a>
+                            </li>
+                            <li class="nav-control-item">
+                                <a href="#" class="nav-control-link">
+                                    <i class="fas icon-nav_label fa-rss"></i>
+                                    <span class="nav-control-title">Theo Dõi</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="distance">
+
+                    </div>
+                    <!-- nav gener -->
+                    <div class="nav-left-genre">
+                        <ul class="nav-control-list">
+                            <li class="nav-control-item nav-control-item-active">
+                                <a href="#" class="nav-control-link">
+                                    <i class="fas icon-nav_label fa-music"></i>
+                                    <span class="nav-control-title">nhạc mới</span>
+                                </a>
+                            </li>
+                            <li class="nav-control-item">
+                                <a href="#" class="nav-control-link">
+                                    <i class="fas icon-nav_label fa-icons"></i>
+                                    <span class="nav-control-title">thể loại</span>
+                                </a>
+                            </li>
+                            <li class="nav-control-item">
+                                <a href="#" class="nav-control-link">
+                                    <i class="fas icon-nav_label fa-star"></i>
+                                    <span class="nav-control-title">Top 100</span>
+                                </a>
+                            </li>
+                            <li class="nav-control-item">
+                                <a href="#" class="nav-control-link">
+                                    <i class="fas icon-nav_label icon_add_big fa-caret-square-right"></i>
+                                    <span class="nav-control-title">music video</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="advertisement">
+                            <div class="box-adver">
+                                <sapn class="content">Nghe nhạc không quảng cáo cùng kho nhạc VIP</sapn>
+                                <button class="btn btn-adver">MUA VIP</button>
+                            </div>
+                        </div>
+                        <ul class="nav-control-list nav-control-list-library">
+                            <div class="nav-header">
+                                <h3 class="heading-title">
+                                    Thư viện
+                                </h3>
+                                <div>
+                                    <i class="fas fa-pen nav_label--sidebar_name--icon"></i>
+                                </div>
+                            </div>
+                            <div>
+                                <li class="nav-control-item">
+                                    <a href="#" class="nav-control-link">
+                                        <img src="https://zjs.zadn.vn/zmp3-desktop/releases/v1.0.13/static/media/my-song.cf0cb0b4.svg" alt="">
+                                        <span class="nav-control-title">Bài hát</span>
+                                    </a>
+                                </li>
+                                <li class="nav-control-item">
+                                    <a href="#" class="nav-control-link">
+                                        <img src="https://zjs.zadn.vn/zmp3-desktop/releases/v1.0.13/static/media/my-playlist.7e92a5f0.svg" alt="">
+                                        <span class="nav-control-title">Playlist</span>
+                                    </a>
+                                </li>
+                                <li class="nav-control-item">
+                                    <a href="#" class="nav-control-link">
+                                        <img src="https://zjs.zadn.vn/zmp3-desktop/releases/v1.0.13/static/media/my-history.374cb625.svg" alt="">
+                                        <span class="nav-control-title">Gần đây</span>
+                                    </a>
+                                </li>
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="create-playlist">
+                        <i class="fas icon-nav_label fa-plus"></i>
+                        <span class="playlist-title">Tạo playlist mới</span>
+                    </div>
+                </div>
+                <!-- main music -->
+                <div class="main-right">
+                    <div class="wraper-main grid">
+                        <div class="main-header row">
+                            <div class="main-navigation col l-1 s-0 m-1 hide-on-mobile">
+                                <div class="main-nav-row hide-on-tablet">
+                                    <button class="main-nav-btn-control">
+                                        <i class="fas fa-arrow-left"></i>
+                                    </button>
+                                    <button class="main-nav-btn-control active">
+                                        <i class="fas fa-arrow-right"></i>
+                                    </button>
+                                </div>
+                                <div class="btn-bars hide-on-laptop">
+                                    <i class="fas fa-bars"></i>
+                                </div>
+                            </div>
+                            <!-- input search -->
+                            <div class="main-search col l-8 s-8 m-7">
+                                <div class="wrap-search">
+                                    <i class="hidden_on fas fa-search container_header--content_search--icon"></i>
+                                    <input type="text" class="search-input" placeholder="Nhập tên bài hát, Nghệ sĩ hoặc MV...">
+                                    <!-- history search -->
+                                    <div class="history-search">
+                                        <ul class="list-search">
+                                            <li class="item-search">
+                                                <i class="history-icon-search fas fa-search"></i>
+                                                <span class="search-conttent">Havana</span>
+                                            </li>
+                                            <li class="item-search">
+                                                <i class="history-icon-search fas fa-search"></i>
+                                                <span class="search-conttent">We don't talk anymore</span>
+                                            </li>
+                                            <li class="item-search">
+                                                <i class="history-icon-search fas fa-search"></i>
+                                                <span class="search-conttent">Attention</span>
+                                            </li>
+                                            <li class="item-search">
+                                                <i class="history-icon-search fas fa-search"></i>
+                                                <span class="search-conttent">Shape of you</span>
+                                            </li>
+                                            <li class="item-search">
+                                                <i class="history-icon-search fas fa-search"></i>
+                                                <span class="search-conttent">Ok</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main-info-persional col l-3 s-4 m-4">
+                                <ul class="main-info-list row">
+                                    <li class="main-info-item">
+                                        <span class="main-info-item-link">
+                                            <i class="fas fa-tshirt"></i>
+                                        </span>
+                                    </li>
+                                    <li class="main-info-item hide-on-mobile">
+                                        <span class="main-info-item-link">
+                                            <label for="upload-file" class = "upload-file">
+                                                <i class="fas fa-upload"></i>
+                                            </label>
+                                            <input type="file" id="upload-file" class = "hide">
+                                        </span>
+                                    </li>
+                                    <li class="main-info-item">
+                                        <span class="main-info-item-link">
+                                            <i class="fas fa-cog"></i>
+                                        </span>
+                                        <!-- settings -->
+                                        <div class="settings">
+                                            <ul class="list-settings">
+                                                <li class="item-setting">
+                                                    <i class="fas fa-ban"></i>
+                                                    <span>Danh sách chặn</span>
+                                                </li>
+                                                <li class="item-setting">
+                                                    <i class="fas fa-record-vinyl"></i>
+                                                    <span>Chất lượng nhạc</span>
+                                                </li>
+                                                <li class="item-setting">
+                                                    <i class="far fa-play-circle"></i>
+                                                    <span>Trình phát nhạc</span>
+                                                </li>
+                                            </ul>
+                                            <div class="mp3-company">
+                                                <ul class="list-info-company">
+                                                    <li class="item-info-company">
+                                                        <span>Giới thiệu</span>
+                                                    </li>
+                                                    <li class="item-info-company">
+                                                        <span>Gợi ý</span>
+                                                        <i class="fas fa-external-link-alt"></i>
+                                                    </li>
+                                                    <li class="item-info-company">
+                                                        <span>Liên hệ</span>
+                                                        <i class="fas fa-external-link-alt"></i>
+                                                    </li>
+                                                    <li class="item-info-company">
+                                                        <span>Quảng cáo</span>
+                                                        <i class="fas fa-external-link-alt"></i>
+                                                    </li>
+                                                    <li class="item-info-company">
+                                                        <span>Thỏa thuận sử dụng</span>
+                                                        <i class="fas fa-external-link-alt"></i>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="main-info-item header-avt" style="background-image: url('https://th.bing.com/th/id/OIP.cUUf67YH-hex_XPKWlnZ1QHaLF?pid=ImgDet&rs=1')">
+                                        <span class="main-info-item-link">
+                                            <!-- <i class="fas fa-tshirt"></i> -->
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class = "main-music">
+                            <div class="music-wrap gird">
+                                <div class="main-music-avt row hide-on-tablet">
+                                    <div class="distance-top col l-4 m-4 hide-on-mobile"></div>
+                                    <div class="main-music-avt-item col l-4 m-4 hide-on-mobile">
+                                        <div class="main-music-avt-wrap">
+                                            <div class="img-avt" style = "background-image: url('https://th.bing.com/th/id/OIP.cUUf67YH-hex_XPKWlnZ1QHaLF?pid=ImgDet&rs=1')"></div>
+                                            <span class="main-music-name">Lê Tấn Kim</span>
+                                        </div>
+                                    </div>
+                                    <div class="main-music-avt-item main-music-avt-item-inline m-4 col l-4 row s-12">
+                                        <div class = "col l-5 s-6 m-6"><button class="btn btn-avt-buy">Mua Vip Ngay</button></div>
+                                        <div class = "col l-5 s-6 m-6"><button class="btn btn-avt-received">Nhận code Vip</button></div>
+                                        <div class="main-music-avt-item-more col l-2 s-0 m-0 hide-on-mobile">
+                                            <span>
+                                                <i class="fas fa-ellipsis-h"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="avt-on-mobile hide-on-talet">
+                                    <div class="main-music-avt-item col l-4">
+                                        <div class="main-notice-error">
+                                            <span>Trang web hiện tại chưa hoàn thiện, bạn vui lòng thông cảm!</span>
+                                        </div>
+                                    </div>
+                                    <div class="avt hide-on-laptop">
+                                        <div class="main-music-avt-wrap">
+                                            <div class="img-avt" style = "background-image: url('https://th.bing.com/th/id/OIP.cUUf67YH-hex_XPKWlnZ1QHaLF?pid=ImgDet&rs=1')"></div>
+                                            <span class="main-music-name">Lê Tấn Kim</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- list control  -->
+                                <div class="container_profile--head">
+                                    <ul class="container_profile--head-list">
+                                        <li class="container_profile--head-item active">Tổng quan</li>
+                                        <li class="container_profile--head-item">Bài hát</li>
+                                        <li class="container_profile--head-item">Playlist</li>
+                                        <li class="container_profile--head-item">Album</li>
+                                        <li class="container_profile--head-item hide-on-mobile">Nghệ sĩ</li>
+                                        <li class="container_profile--head-item hide-on-mobile">MV</li>
+                                        <li class="container_profile--head-item hide-on-mobile">Tải lên</li>
+                                    </ul>
+                                </div>
+                                <!-- list music -->
+                                <div class="musics grid active-show-interface">
+                                    <div class="common-header row">
+                                        <div class="common-title col l-6">
+                                            <span class="common-title-content">Bài hát</span>
+                                            <i class="fas fa-angle-right"></i>
+                                        </div>
+                                        <div class="add-and-play col l-6 hide-on-mobile">
+                                            <div class="add-and-play-item">
+                                                <label for="upload-file" class = "upload-file">
+                                                    <i class="fas fa-upload container_profile_icon"></i>
+                                                    <span class="container_profile-content">Tải lên</span>
+                                                </label>
+                                                <input type="file" id ="upload-file" class = "hide">
+                                            </div>
+                                            <div class="add-and-play-item add-and-play-music">
+                                                <i class="fas fa-play container_profile_icon"></i>
+                                                <span class="container_profile-content">Phát tất cả</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="container-music row">
+                                        <div class="music-pictures col l-3 s-0">
+                                            <ul class="music-picture-list">
+                                                <li class="music-picture-item">
+                                                    <img src="" alt="" class = "img-desc">
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="music-infor col l-9 s-12">
+                                            <ul class="music-infor-list grid">
+                                                <!-- <li class="music-infor-item active row">
+                                                    <div class="infor-item-small-img col l-6">
+                                                        <div class="small-img">
+                                                            <img src="https://anhtuana2k422001.github.io/zingmp3/assets/img/image1.jpg" alt="">
+                                                            <span class="small-pause">
+                                                                <i class="fas fa-play container_profile_icon"></i>
+                                                            </span>
+                                                        </div>
+                                                        <div class="singer-music">
+                                                            <span class="music-name">Cưới đi</span>
+                                                            <span class="singer-name">
+                                                                <a href="">Massew, </a>
+                                                                <a href="">Massew, </a>
+                                                                <a href="">Massew</a>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="infor-item-time col l-2">
+                                                        <span class="infor-item-time-details">4:44</span>
+                                                    </div>
+                                                    <div class="infor-item-react col l-4">
+                                                        <ul class="list-react">
+                                                            <li class="react-item">
+                                                                <i class="fas fa-microphone "></i>
+                                                            </li>
+                                                            <li class="react-item">
+                                                                <i class="fas fa-heart "></i>
+                                                            </li>
+                                                            <li class="react-item">
+                                                                <i class="fas fa-ellipsis-h"></i>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="music-infor-item row">
+                                                    <div class="infor-item-small-img col l-6">
+                                                        <div class="small-img">
+                                                            <img src="https://anhtuana2k422001.github.io/zingmp3/assets/img/image1.jpg" alt="">
+                                                            <span class="small-pause">
+                                                                <i class="fas fa-play container_profile_icon"></i>
+                                                            </span>
+                                                        </div>
+                                                        <div class="singer-music">
+                                                            <span class="music-name">Cưới đi</span>
+                                                            <span class="singer-name">
+                                                                <a href="">Massew, </a>
+                                                                <a href="">Massew, </a>
+                                                                <a href="">Massew</a>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="infor-item-time col l-2">
+                                                        <span class="infor-item-time-details">4:44</span>
+                                                    </div>
+                                                    <div class="infor-item-react col l-4">
+                                                        <ul class="list-react">
+                                                            <li class="react-item">
+                                                                <i class="fas fa-microphone "></i>
+                                                            </li>
+                                                            <li class="react-item">
+                                                                <i class="fas fa-heart "></i>
+                                                            </li>
+                                                            <li class="react-item">
+                                                                <i class="fas fa-ellipsis-h"></i>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="music-infor-item row">
+                                                    <div class="infor-item-small-img col l-6">
+                                                        <div class="small-img">
+                                                            <img src="https://anhtuana2k422001.github.io/zingmp3/assets/img/image1.jpg" alt="">
+                                                            <span class="small-pause">
+                                                                <i class="fas fa-play container_profile_icon"></i>
+                                                            </span>
+                                                        </div>
+                                                        <div class="singer-music">
+                                                            <span class="music-name">Cưới đi</span>
+                                                            <span class="singer-name">
+                                                                <a href="">Massew, </a>
+                                                                <a href="">Massew, </a>
+                                                                <a href="">Massew</a>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="infor-item-time col l-2">
+                                                        <span class="infor-item-time-details">4:44</span>
+                                                    </div>
+                                                    <div class="infor-item-react col l-4">
+                                                        <ul class="list-react">
+                                                            <li class="react-item">
+                                                                <i class="fas fa-microphone "></i>
+                                                            </li>
+                                                            <li class="react-item">
+                                                                <i class="fas fa-heart "></i>
+                                                            </li>
+                                                            <li class="react-item">
+                                                                <i class="fas fa-ellipsis-h"></i>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="music-infor-item row">
+                                                    <div class="infor-item-small-img col l-6">
+                                                        <div class="small-img">
+                                                            <img src="https://anhtuana2k422001.github.io/zingmp3/assets/img/image1.jpg" alt="">
+                                                            <span class="small-pause">
+                                                                <i class="fas fa-play container_profile_icon"></i>
+                                                            </span>
+                                                        </div>
+                                                        <div class="singer-music">
+                                                            <span class="music-name">Cưới đi</span>
+                                                            <span class="singer-name">
+                                                                <a href="">Massew, </a>
+                                                                <a href="">Massew, </a>
+                                                                <a href="">Massew</a>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="infor-item-time col l-2">
+                                                        <span class="infor-item-time-details">4:44</span>
+                                                    </div>
+                                                    <div class="infor-item-react col l-4">
+                                                        <ul class="list-react">
+                                                            <li class="react-item">
+                                                                <i class="fas fa-microphone "></i>
+                                                            </li>
+                                                            <li class="react-item">
+                                                                <i class="fas fa-heart "></i>
+                                                            </li>
+                                                            <li class="react-item">
+                                                                <i class="fas fa-ellipsis-h"></i>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="music-infor-item row">
+                                                    <div class="infor-item-small-img col l-6">
+                                                        <div class="small-img">
+                                                            <img src="https://anhtuana2k422001.github.io/zingmp3/assets/img/image1.jpg" alt="">
+                                                            <span class="small-pause">
+                                                                <i class="fas fa-play container_profile_icon"></i>
+                                                            </span>
+                                                        </div>
+                                                        <div class="singer-music">
+                                                            <span class="music-name">Cưới đi</span>
+                                                            <span class="singer-name">
+                                                                <a href="">Massew, </a>
+                                                                <a href="">Massew, </a>
+                                                                <a href="">Massew</a>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="infor-item-time col l-2">
+                                                        <span class="infor-item-time-details">4:44</span>
+                                                    </div>
+                                                    <div class="infor-item-react col l-4">
+                                                        <ul class="list-react">
+                                                            <li class="react-item">
+                                                                <i class="fas fa-microphone "></i>
+                                                            </li>
+                                                            <li class="react-item">
+                                                                <i class="fas fa-heart "></i>
+                                                            </li>
+                                                            <li class="react-item">
+                                                                <i class="fas fa-ellipsis-h"></i>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li> -->
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- playlist -->
+                                <div class="container-playlist grid active-show-interface">
+                                    <div class="common-header">
+                                        <div class="common-title">
+                                            <span class="common-title-content">Playlist</span>
+                                            <i class="fas fa-angle-right"></i>
+                                        </div>
+                                    </div>
+                                    <div class="wrapper-playlist row">
+                                        <div class="btn-add-playlist col l-2-5 s-5">
+                                            <i class="fas icon-nav_label fa-plus"></i>
+                                            <span class="btn-add-playlist-content">Tạo playlist mới</span>
+                                        </div>
+                                        <div class="added-playlist col l-2-5 s-6">
+                                            <div class="playlists-more-listen">
+                                                <div class="background-playlist-album">
+                                                    <div class="overplay-playlist-album"></div>
+                                                    <img src="https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/1/2/1/f/121fde6fe3898bc64cf04b716ddbe590.jpg" alt="">
+                                                    <div class="btn-hiden">
+                                                        <div class = "shadow">
+                                                            <span class = "icon-hiden-control shadow-behind">
+                                                                <i class="fas fa-heart active"></i>
+                                                            </span>
+                                                        </div>
+                                                        <div>
+                                                            <span class = "icon-hiden-control">
+                                                                <i class="far fa-play-circle"></i>
+                                                            </span>
+                                                        </div>
+                                                        <div class = "shadow">
+                                                            <span class = "icon-hiden-control shadow-behind">
+                                                                <i class="fas fa-ellipsis-h"></i>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="playlists-more-listen-content">
+                                                    <span class="name-playlist">Lê Tấn Kim _ 03</span>
+                                                    <span class="source-playlist">Zing Mp3</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- album -->
+                                <div class="container-album grid active-show-interface">
+                                    <div class="common-header">
+                                        <div class="common-title">
+                                            <span class="common-title-content">Album</span>
+                                            <i class="fas fa-angle-right"></i>
+                                        </div>
+                                    </div>
+                                    <div class="wrapper-album grid">
+                                        <div class="albums row">
+                                            <div class="added-album col l-3 s-6 m-4">
+                                                <div class="playlists-more-listen">
+                                                    <div class="background-playlist-album">
+                                                        <div class="overplay-playlist-album"></div>
+                                                        <img src="https://i.ytimg.com/vi/ElLRQwiyBIs/maxresdefault.jpg" alt="">
+                                                        <div class="btn-hiden">
+                                                            <div class = "shadow">
+                                                                <span class = "icon-hiden-control shadow-behind">
+                                                                    <i class="fas fa-heart active"></i>
+                                                                </span>
+                                                            </div>
+                                                            <div>
+                                                                <span class = "icon-hiden-control">
+                                                                    <i class="far fa-play-circle"></i>
+                                                                </span>
+                                                            </div>
+                                                            <div class = "shadow">
+                                                                <span class = "icon-hiden-control shadow-behind">
+                                                                    <i class="fas fa-ellipsis-h"></i>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="playlists-more-listen-content">
+                                                        <span class="name-playlist">Lê Tấn Kim _ 03</span>
+                                                        <span class="source-playlist">Zing Mp3</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="added-album col l-3 s-6 m-4">
+                                                <div class="playlists-more-listen">
+                                                    <div class="background-playlist-album">
+                                                        <div class="overplay-playlist-album"></div>
+                                                        <img src="https://i.ytimg.com/vi/MQEiz52EIFQ/hqdefault.jpg" alt="">
+                                                        <div class="btn-hiden">
+                                                            <div class = "shadow">
+                                                                <span class = "icon-hiden-control shadow-behind">
+                                                                    <i class="fas fa-heart active"></i>
+                                                                </span>
+                                                            </div>
+                                                            <div>
+                                                                <span class = "icon-hiden-control">
+                                                                    <i class="far fa-play-circle"></i>
+                                                                </span>
+                                                            </div>
+                                                            <div class = "shadow">
+                                                                <span class = "icon-hiden-control shadow-behind">
+                                                                    <i class="fas fa-ellipsis-h"></i>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="playlists-more-listen-content">
+                                                        <span class="name-playlist">Lê Tấn Kim _ 03</span>
+                                                        <span class="source-playlist">Zing Mp3</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="added-album col l-3 s-6 m-4">
+                                                <div class="playlists-more-listen">
+                                                    <div class="background-playlist-album">
+                                                        <div class="overplay-playlist-album"></div>
+                                                        <img src="https://i.ytimg.com/vi/g6BbYyMUOpY/maxresdefault.jpg" alt="">
+                                                        <div class="btn-hiden">
+                                                            <div class = "shadow">
+                                                                <span class = "icon-hiden-control shadow-behind">
+                                                                    <i class="fas fa-heart active"></i>
+                                                                </span>
+                                                            </div>
+                                                            <div>
+                                                                <span class = "icon-hiden-control">
+                                                                    <i class="far fa-play-circle"></i>
+                                                                </span>
+                                                            </div>
+                                                            <div class = "shadow">
+                                                                <span class = "icon-hiden-control shadow-behind">
+                                                                    <i class="fas fa-ellipsis-h"></i>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="playlists-more-listen-content">
+                                                        <span class="name-playlist">Lê Tấn Kim _ 03</span>
+                                                        <span class="source-playlist">Zing Mp3</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="added-album col l-3 s-6 m-4">
+                                                <div class="playlists-more-listen">
+                                                    <div class="background-playlist-album">
+                                                        <div class="overplay-playlist-album"></div>
+                                                        <img src="https://i.ytimg.com/vi/2Ng5o-8YleM/maxresdefault.jpg" alt="">
+                                                        <div class="btn-hiden">
+                                                            <div class = "shadow">
+                                                                <span class = "icon-hiden-control shadow-behind">
+                                                                    <i class="fas fa-heart active"></i>
+                                                                </span>
+                                                            </div>
+                                                            <div>
+                                                                <span class = "icon-hiden-control">
+                                                                    <i class="far fa-play-circle"></i>
+                                                                </span>
+                                                            </div>
+                                                            <div class = "shadow">
+                                                                <span class = "icon-hiden-control shadow-behind">
+                                                                    <i class="fas fa-ellipsis-h"></i>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="playlists-more-listen-content">
+                                                        <span class="name-playlist">Lê Tấn Kim _ 03</span>
+                                                        <span class="source-playlist">Zing Mp3</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="added-album col l-3 s-6 m-4">
+                                                <div class="playlists-more-listen">
+                                                    <div class="background-playlist-album">
+                                                        <div class="overplay-playlist-album"></div>
+                                                        <img src="https://i.ytimg.com/vi/KUp1f0irngg/maxresdefault.jpg" alt="">
+                                                        <div class="btn-hiden">
+                                                            <div class = "shadow">
+                                                                <span class = "icon-hiden-control shadow-behind">
+                                                                    <i class="fas fa-heart active"></i>
+                                                                </span>
+                                                            </div>
+                                                            <div>
+                                                                <span class = "icon-hiden-control">
+                                                                    <i class="far fa-play-circle"></i>
+                                                                </span>
+                                                            </div>
+                                                            <div class = "shadow">
+                                                                <span class = "icon-hiden-control shadow-behind">
+                                                                    <i class="fas fa-ellipsis-h"></i>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="playlists-more-listen-content">
+                                                        <span class="name-playlist">Lê Tấn Kim _ 03</span>
+                                                        <span class="source-playlist">Zing Mp3</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="added-album col l-3 s-6 m-4">
+                                                <div class="playlists-more-listen">
+                                                    <div class="background-playlist-album">
+                                                        <div class="overplay-playlist-album"></div>
+                                                        <img src="https://lzd-img-global.slatic.net/g/p/3d0ec11d452f84a248bdba3d9b7f728f.jpg_720x720q80.jpg_.webp" alt="">
+                                                        <div class="btn-hiden">
+                                                            <div class = "shadow">
+                                                                <span class = "icon-hiden-control shadow-behind">
+                                                                    <i class="fas fa-heart active"></i>
+                                                                </span>
+                                                            </div>
+                                                            <div>
+                                                                <span class = "icon-hiden-control">
+                                                                    <i class="far fa-play-circle"></i>
+                                                                </span>
+                                                            </div>
+                                                            <div class = "shadow">
+                                                                <span class = "icon-hiden-control shadow-behind">
+                                                                    <i class="fas fa-ellipsis-h"></i>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="playlists-more-listen-content">
+                                                        <span class="name-playlist">Lê Tấn Kim _ 03</span>
+                                                        <span class="source-playlist">Zing Mp3</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="added-album col l-3 s-6 m-4">
+                                                <div class="playlists-more-listen">
+                                                    <div class="background-playlist-album">
+                                                        <div class="overplay-playlist-album"></div>
+                                                        <img src="https://photo-resize-zmp3.zmdcdn.me/w240_r1x1_jpeg/covers/2/5/25b49d295be8f15021498c7bce76d8a6_1392265597.jpg" alt="">
+                                                        <div class="btn-hiden">
+                                                            <div class = "shadow">
+                                                                <span class = "icon-hiden-control shadow-behind">
+                                                                    <i class="fas fa-heart active"></i>
+                                                                </span>
+                                                            </div>
+                                                            <div>
+                                                                <span class = "icon-hiden-control">
+                                                                    <i class="far fa-play-circle"></i>
+                                                                </span>
+                                                            </div>
+                                                            <div class = "shadow">
+                                                                <span class = "icon-hiden-control shadow-behind">
+                                                                    <i class="fas fa-ellipsis-h"></i>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="playlists-more-listen-content">
+                                                        <span class="name-playlist">Lê Tấn Kim _ 03</span>
+                                                        <span class="source-playlist">Zing Mp3</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="added-album col l-3 s-6 m-4">
+                                                <div class="playlists-more-listen">
+                                                    <div class="background-playlist-album">
+                                                        <div class="overplay-playlist-album"></div>
+                                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLFGGN5_r3zETSM5XIITD2odIkE3P47WhOAQ&usqp=CAU" alt="">
+                                                        <div class="btn-hiden">
+                                                            <div class = "shadow">
+                                                                <span class = "icon-hiden-control shadow-behind">
+                                                                    <i class="fas fa-heart active"></i>
+                                                                </span>
+                                                            </div>
+                                                            <div>
+                                                                <span class = "icon-hiden-control">
+                                                                    <i class="far fa-play-circle"></i>
+                                                                </span>
+                                                            </div>
+                                                            <div class = "shadow">
+                                                                <span class = "icon-hiden-control shadow-behind">
+                                                                    <i class="fas fa-ellipsis-h"></i>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="playlists-more-listen-content">
+                                                        <span class="name-playlist">Lê Tấn Kim _ 03</span>
+                                                        <span class="source-playlist">Zing Mp3</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- non-notice -->
+                                <div class="page-notice-non">
+                                    <div class="title-page-notice">
+                                        <img src="https://zjs.zadn.vn/zmp3-desktop/releases/v1.3.1/static/media/video-icon.09654360.svg" alt="">
+                                        <span>Chưa có thông tin nào trong thư viện</span>
+                                    </div>
+                                </div>
+                                <!-- page are updating -->
+                            </div>
+                            <div class="page-update">
+                                <div class="title-update">
+                                    <h3>Trang web đang trong quá trình hoàn thiện những chức năng này.</h3>
+                                    <span>Vui lòng chỉ sử dụng những chức năng khác.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- musics are playing -->
+            <div class="playing-music grid">
+                <div class="container-playing-music row">
+                    <div class="info-music-playing col l-3 s-8 m-3">
+                        <!-- btn colose window -->
+                        <div class="close hide hide-on-laptop">
+                            <i class="fas fa-angle-down"></i>
+                        </div>
+                        <!-- btn see more function -->
+                        <div class="btn-more hide hide-on-laptop">
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+                        <!-- overplay -->
+                        <div class="overlay hide-on-laptop">
+
+                        </div>
+                        <!-- handle funtions -->
+                        <div class="window-function hide-on-laptop">
+                            <div class="function-main">
+                                <div class="function-system">
+                                    <ul class="list-funtions">
+                                        <li class="item-funtion btn-set-time">
+                                            <i class="icon-funtion fas fa-clock"></i>
+                                            <span class = "title-funtion">Hẹn Giờ</span>
+                                        </li>
+                                        <li class="item-funtion">
+                                            <i class="icon-funtion fas fa-sliders-h"></i>
+                                            <span class = "title-funtion">Equalizer</span>
+                                        </li>
+                                        <li class="item-funtion">
+                                            <i class="icon-funtion fas fa-external-link-alt"></i>
+                                            <span class = "title-funtion">Floating lyrics</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="infor-music">
+                                    <ul class="list-infor">
+                                        <li class="img-this-music">
+                                            <img src="	https://avatar-ex-swe.nixcdn.com/song/2017/06/02/7/d/e/9/1496386230312_640.jpg" alt="">
+                                        </li>
+                                        <li class="name-music-singer">
+                                            <span class="name-this-music">Havana</span>
+                                            <span class="name-this-singer">Havana</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="functions-more">
+                                    <ul class="list-functions-more">
+                                        <li class="item-function-more">
+                                            <i class="far fa-heart"></i>
+                                            <span class="item-function-more-title">Thêm vào thư viện</span>
+                                        </li>
+                                        <li class="item-function-more">
+                                            <i class="fas fa-sliders-h"></i>
+                                            <span class="item-function-more-title">Thêm vào playlist</span>
+                                        </li>
+                                        <li class="item-function-more">
+                                            <i class="far fa-play-circle"></i>
+                                            <span class="item-function-more-title">Mở radio của bài hát</span>
+                                        </li>
+                                        <li class="item-function-more">
+                                            <i class="fas fa-microphone"></i>
+                                            <span class="item-function-more-title">Hát karaoke</span>
+                                        </li>
+                                        <li class="item-function-more">
+                                            <i class="fab fa-itunes"></i>
+                                            <span class="item-function-more-title">Cài làm nhạc chuông</span>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="img-music-playing">
+                            <img src="	https://anhtuana2k422001.github.io/zingmp3/assets/img/image1.jpg" alt="">
+                        </div>
+                        <div class="conttent-music-playing">
+                            <marquee class="name-music-playing">Cưới đi</marquee>
+                            <span class="singer-music-playing">Massew</span>
+                        </div>
+                        <div class="react-music-playing hide-on-mobile hide-all hide-on-tablet">
+                            <div class="shadow">
+                                <span class="heart-music-playing shadow-behind"><i class="fas fa-heart"></i></span>
+                            </div>
+                            <div class="shadow">
+                                <span class="system-music-playing shadow-behind"><i class="fas fa-ellipsis-h"></i></span>
+                            </div>
+                        </div>
+                        <audio src="" id = "audio-play"></audio>
+                    </div>
+                    <div class="btn-control-playing col l-6 s-4 m-7">
+                        <div class="control-players">
+                            <ul class="list-players">
+                                <div class = "shadow"><li class="item-player shadow-behind hide-on-mobile"><i class="fas fa-random"></i></li></div>
+                                <div class = "shadow"><li class="item-player shadow-behind"><i class="fas fa-step-backward"></i></li></div>
+                                <li class="item-player item-btn-playing">
+                                    <i class="far fa-play-circle active"></i>
+                                    <i class="far fa-pause-circle"></i>
+                                </li>
+                                <div class = "shadow"><li class="item-player shadow-behind"><i class="fas fa-step-forward"></i></li></div>
+                                <div class = "shadow"><li class="item-player shadow-behind hide-on-mobile"><i class="fas fa-redo"></i></li></div>
+                            </ul>
+                        </div>
+                        <div class="control-times">
+                            <span class=" control-time control-time-start hide-on-mobile"></span>
+                            <input type="range" value="1" step="1" min="1" max="100" class="total-time-control">
+                            <span class=" control-time control-time-end hide-on-mobile"></span>
+                        </div>
+                    </div>
+                    <div class="btn-control-system-playing col l-3 s-3 m-2">
+                        <ul class="list-btn-system-playing">
+                            <li class="item-btn-system-playing hide-on-mobile hide-on-tablet">
+                                <i class="fab fa-youtube-square"></i>
+                            </li>
+                            <li class="item-btn-system-playing hide-on-mobile">
+                                <i class="fas fa-microphone"></i>
+                            </li>
+                            <li class="item-btn-system-playing volume-wrap hide-on-mobile">
+                                <i class="fas fa-volume-up"></i>
+                                <input class = "volume"type="range" value="100" step = "1" min="0" max="100">
+                            </li>
+                            <li class="item-btn-system-playing time-wrap hide-on-mobile">
+                                <i class="fas fa-clock hide-all hide-on-tablet"></i>
+                                <input type="text" class = "time-up" placeholder = "Hẹn giờ muốn tắt">
+                                <!-- pop up set time pause music -->
+                                <div class="pop-up-set-time hide-on-laptop">
+                                    <div class="container-set-time">
+                                        <h3 class="title-set-time">Hẹn giờ tắt</h3>
+                                        <ul class="list-time-choose">
+                                            <li class="time-item-choose">15 phút</li>
+                                            <li class="time-item-choose">30 phút</li>
+                                            <li class="time-item-choose">45 phút</li>
+                                            <li class="time-item-choose">60 phút</li>
+                                            <input type="text" class="set-time" placeholder = "Tùy chọn khác">
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="item-btn-system-playing system-distance hide-on-mobile">
+                                <span></span>
+                            </li>
+                            <li class="item-btn-system-playing hide-on-mobile">
+                                <i class="fas fa-sliders-h"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- btn control on mobile -->
+            <div class="wrapper-btn-control-mobile hide-on-laptop hide-on-tablet">
+                <div class="container-btn-control-mobile grid">
+                    <ul class="btn-control-mobile-list row">
+                        <li class="btn-control-mobile-item active col s-2-5">
+                            <i class="fab icon_add_big fa-itunes"></i>
+                            <span class="control-mobile-content">Cá nhân</span>
+                        </li>
+                        <li class="btn-control-mobile-item col s-2-5">
+                            <i class="fas fa-record-vinyl"></i>
+                            <span class="control-mobile-content">Khám phá</span>
+                        </li>
+                        <li class="btn-control-mobile-item col s-2-5">
+                            <i class="fab fa-facebook-messenger"></i>
+                            <span class="control-mobile-content">#zingchat</span>
+                        </li>
+                        <li class="btn-control-mobile-item col s-2-5">
+                            <i class="fas fa-radiation-alt"></i>
+                            <span class="control-mobile-content">Radio</span>
+                        </li>
+                        <li class="btn-control-mobile-item col s-2-5">
+                            <i class="fas fa-rss"></i>
+                            <span class="control-mobile-content">Theo dõi</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../javascript/app.js"></script>
+<script src="../javascript/render-music.js"></script>
+<script src="../javascript/main.js"></script>
+</html>

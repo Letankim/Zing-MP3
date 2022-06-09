@@ -1,0 +1,109 @@
+/* header main */
+.common-header {
+    color: var(--white-color);
+}
+.common-title {
+   display: flex;
+   align-items: center;
+   justify-content: left;
+   font-size: 1.8rem;
+   color: var(--white-color);
+   font-weight: 600;
+   gap: 10px;
+}
+.common-title-content {
+    text-transform: capitalize;
+}
+/* scrollbar */
+.nav-left-genre::-webkit-scrollbar,
+.main-music::-webkit-scrollbar,
+.music-infor::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+.nav-left-genre.active::-webkit-scrollbar,
+.main-music.active::-webkit-scrollbar,
+.music-infor.active::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+}
+.nav-left-genre::-webkit-scrollbar-thumb,
+.main-music::-webkit-scrollbar-thumb,
+.music-infor::-webkit-scrollbar-thumb {
+    --webkit-box-shadow:inset 0 0 0 #ffffff;
+    background:#82878a; 
+    border-radius:4px;
+    height: 20px;
+}
+.btn {
+    padding: 13px 10px;
+    width: 150px;
+    text-align: center;
+    border-radius: 13px;
+    background-color: #ffdb00;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+/* shadow when hover */
+.shadow-behind {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.shadow .shadow-behind::before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--icon-color);
+    border-radius: 50%;
+    opacity: 0;
+    z-index: -1;
+    transition: all 0.2s ease;
+}
+.shadow:hover .shadow-behind::before {
+    opacity: 1;
+}
+
+.hide {
+    display: none;
+}
+/* animation */
+
+/* @keyframes fadeInScale {
+    0% {
+        transform: scale(1.01);
+    }
+    20% {
+        transform: scale(1.12);
+    }
+    30% {
+        transform: scale(1.16);
+    }
+    40% {
+        transform: scale(1.18);
+    }
+    60% {
+        transform: scale(1.22);
+    }
+    80% {
+        transform: scale(1.26);
+    }
+    100% {
+        transform: scale(1.3);
+    }
+} */
