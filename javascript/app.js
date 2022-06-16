@@ -193,6 +193,9 @@ var containerProfile = document.querySelectorAll('.container_profile--head-item'
                 if(listDisplayUser[indexThisItemDisplay + 1].classList.contains('showfull')) {
                     listDisplayUser[indexThisItemDisplay + 1].classList.remove('showfull');
                 }
+                if(listDisplayUser[indexThisItemDisplay + 4].classList.contains('active-show-interface')) {
+                    listDisplayUser[indexThisItemDisplay + 4].classList.remove('active-show-interface');
+                }
                 break;
             case "Bài hát":
                 thisEleShow.classList.add('active-show-interface', 'showfull');
@@ -209,7 +212,7 @@ var containerProfile = document.querySelectorAll('.container_profile--head-item'
                 }
                 checkInterface(listDisplayUser[indexThisItemDisplay + 2],
                      listDisplayUser[indexThisItemDisplay + 1],
-                      listDisplayUser[indexThisItemDisplay + 2], 
+                      listDisplayUser[indexThisItemDisplay + 3], 
                       listDisplayUser[indexThisItemDisplay + 3]);
                 break;
             case "Playlist":
@@ -262,7 +265,7 @@ var containerProfile = document.querySelectorAll('.container_profile--head-item'
                     }
                 }
                 checkInterface(listDisplayUser[indexThisItemDisplay - 1],
-                      listDisplayUser[indexThisItemDisplay + -2],
+                      listDisplayUser[indexThisItemDisplay - 2],
                       listDisplayUser[indexThisItemDisplay - 3], 
                       listDisplayUser[indexThisItemDisplay + 4]);
         }

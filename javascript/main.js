@@ -387,3 +387,42 @@ var app = {
     }
 };
 app.start();
+var historySearch = $('.list-search');
+var inputSearch = $('.search-input');
+function searchMusic(listMusic) {
+    var totalSearchMusic = listMusic.map(function(item){
+        return ` <li class="item-search">
+        <i class="history-icon-search fas fa-search"></i>
+        <span class="search-conttent">${item.name}</span>
+    </li>`
+    });
+    historySearch.innerHTML = totalSearchMusic.join('');
+};
+historySearch.style.display = 'none';
+searchMusic(app.listMusic);
+inputSearch.addEventListener('input', function(event) {
+    var valueInput = event.target.value.trim().toLowerCase();
+    var contentSearch = $$('.search-conttent');
+    contentSearch.forEach(function(item) {
+        if(valueInput === '') {
+            historySearch.style.display = 'none';
+            $('.empty-history').classList.remove('empty');
+            var  empty = `<div class="empty-search">
+                            <img src="https://i.pinimg.com/736x/ae/8a/c2/ae8ac2fa217d23aadcc913989fcc34a2---page-empty-page.jpg" alt="">
+                            <span class="empty-conttent">Không thấy bất kì kết quả nào</span>
+                        </div>`
+            $('.empty-history').innerHTML = empty;
+        } else {
+            historySearch.style.display = 'flex';
+            $('.empty-history').classList.add('empty');
+            if(item.innerText.toLowerCase().includes(valueInput)) {
+                item.parentElement.classList.add('show-search');
+            } else {
+                item.parentElement.classList.remove('show-search');
+            };
+        };
+    });
+});
+
+
+
