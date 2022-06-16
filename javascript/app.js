@@ -280,7 +280,8 @@ inputSearch.addEventListener('focus', function(e) {
 });
 inputSearch.onblur = function() {
     wraperSearch.classList.remove('active');
-}
+};
+
 // settings
 var btnSetting = document.querySelector('.main-info-item-link .fa-cog');
 var settings = document.querySelector('.settings');
@@ -291,7 +292,7 @@ btnSetting.onclick = function() {
 mainMusic.onclick = function() {
     settings.classList.remove('active');
     this.classList.remove('animate');
-}
+};
 
 
 // load window and practice functions 
