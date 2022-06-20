@@ -424,5 +424,10 @@ inputSearch.addEventListener('input', function(event) {
     });
 });
 
-
-
+// console.time('kim')
+// for(var i = 0; i <= 1000; i++) {
+//     setTimeout(function (){
+//         console.time(i)
+//     })
+// }
+// console.timeEnd('kim')
