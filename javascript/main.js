@@ -43,70 +43,70 @@ var app = {
     {
         name: "Save me",
         singer: "Deamn",
-        source: "../audio/save.mp3",
+        source: "./audio/save.mp3",
         image: "https://avatar-ex-swe.nixcdn.com/song/2017/06/02/7/d/e/9/1496386230312_640.jpg",
         times: "03:04"
     },
     {
         name: "Havana",
         singer: "Camila Cabello",
-        source: "../audio/havana.mp3",
+        source: "./audio/havana.mp3",
         image: "https://upload.wikimedia.org/wikipedia/vi/9/98/Havana_%28featuring_Young_Thug%29_%28Official_Single_Cover%29_by_Camila_Cabello.png",
         times: "03:34"
     },
     {
         name: "Attention",
         singer: "Charlie Puth",
-        source: "../audio/attention.mp3",
+        source: "./audio/attention.mp3",
         image: "https://avatar-ex-swe.nixcdn.com/song/2020/08/06/6/0/8/0/1596658151305_640.jpg",
         times: "03:28"
     },
     {
         name: "Cheap thrills",
         singer: "Sia",
-        source: "../audio/cheap thrills.mp3",
+        source: "./audio/cheap thrills.mp3",
         image: "http://data.chiasenhac.com/data/cover/51/50740.jpg",
         times: "03:31"
     },
     {
         name: "Despacito",
         singer: "Luis Fonsi,Daddy Yankee,Justin Bieber",
-        source: "../audio/despacito.mp3",
+        source: "./audio/despacito.mp3",
         image: "https://sixdegreesfromdave.com/wp-content/uploads/2019/06/image1-14.jpg",
         times: "03:48"
     },
     {
         name: "Monsters",
         singer: "Nightcore,Katie Sky",
-        source: "../audio/monsters.mp3",
+        source: "./audio/monsters.mp3",
         image: "https://i.pinimg.com/originals/cd/b5/e2/cdb5e21ef7574d7c9ed46f2daa2edecb.jpg",
         times: "03:37"
     },
     {
         name: "We don't talk any more",
         singer: "Charlie Puth; Selena Gomez",
-        source: "../audio/we dont talk anymore.mp3",
+        source: "./audio/we dont talk anymore.mp3",
         image: "https://avatar-ex-swe.nixcdn.com/song/2017/09/27/a/9/e/f/1506480482657_640.jpg",
         times: "03:37"
     },
     {
         name: "Senorita",
         singer: "Shawn Mendes; Camila Cabello",
-        source: "../audio/senorita.mp3",
+        source: "./audio/senorita.mp3",
         image: "https://avatar-ex-swe.nixcdn.com/mv/2019/06/26/c/e/e/8/1561518743516_640.jpg",
         times: "03:11"
     },
     {
         name: "Shape of you",
         singer: "Ed Sheeran",
-        source: "../audio/shape of you.mp3",
+        source: "./audio/shape of you.mp3",
         image: "https://cdnimg.vietnamplus.vn/t660/uploaded/lepz/2022_04_06/shape_of_you.jpg.jpg",
         times: "03:53"
     },
     {
         name: "The nights",
         singer: "Avicii",
-        source: "../audio/the nights.mp3",
+        source: "./audio/the nights.mp3",
         image: "https://i.ytimg.com/vi/CW9VozEI4uk/maxresdefault.jpg",
         times: "02:58"
     }

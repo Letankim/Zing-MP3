@@ -5,43 +5,43 @@
 //     {
 //         name: "Havana",
 //         singer: "Camila Cabello",
-//         source: "../audio/save.mp3",
+//         source: "./audio/save.mp3",
 //         image: "https://avatar-ex-swe.nixcdn.com/song/2017/06/02/7/d/e/9/1496386230312_640.jpg"
 //     },
 //     {
 //         name: "Havana1",
 //         singer: "Camila Cabello",
-//         source: "../audio/save.mp3",
+//         source: "./audio/save.mp3",
 //         image: "https://avatar-ex-swe.nixcdn.com/song/2017/06/02/7/d/e/9/1496386230312_640.jpg"
 //     },
 //     {
 //         name: "Havana2",
 //         singer: "Camila Cabello",
-//         source: "../audio/save.mp3",
+//         source: "./audio/save.mp3",
 //         image: "https://avatar-ex-swe.nixcdn.com/song/2017/06/02/7/d/e/9/1496386230312_640.jpg"
 //     },
 //     {
 //         name: "Havana3",
 //         singer: "Camila Cabello",
-//         source: "../audio/save.mp3",
+//         source: "./audio/save.mp3",
 //         image: "https://avatar-ex-swe.nixcdn.com/song/2017/06/02/7/d/e/9/1496386230312_640.jpg"
 //     },
 //     {
 //         name: "Havana4",
 //         singer: "Camila Cabello",
-//         source: "../audio/save.mp3",
+//         source: "./audio/save.mp3",
 //         image: "https://avatar-ex-swe.nixcdn.com/song/2017/06/02/7/d/e/9/1496386230312_640.jpg"
 //     },
 //     {
 //         name: "Havana5",
 //         singer: "Camila Cabello",
-//         source: "../audio/save.mp3",
+//         source: "./audio/save.mp3",
 //         image: "https://avatar-ex-swe.nixcdn.com/song/2017/06/02/7/d/e/9/1496386230312_640.jpg"
 //     },
 //     {
 //         name: "Havana6",
 //         singer: "Camila Cabello",
-//         source: "../audio/save.mp3",
+//         source: "./audio/save.mp3",
 //         image: "https://avatar-ex-swe.nixcdn.com/song/2017/06/02/7/d/e/9/1496386230312_640.jpg"
 //     }
 // ];
